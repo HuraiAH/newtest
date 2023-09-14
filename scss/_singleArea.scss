@@ -1,0 +1,39 @@
+.single_area{
+    background-image: url(../assets/img/cta-bg.jpg.webp) ;
+    background-size: auto;
+    background-size: cover;
+    position: relative;
+    margin-top: 2rem;
+    .single_area .overlay-bg2 {
+        background: rgba(4,9,30,0.2);
+        z-index: 0;
+      }
+      .overlay2{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+      }
+      .text-light{
+        color: var(--themes_color) !important;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      
+     .primary-btn{
+        width: 40px;
+        font-weight: 600;
+        height: auto;
+        background-color: var(--themes_color);
+        text-decoration: none;
+        color: #000;
+        padding: 9px 13px;
+        transition: all 0.4s;
+        
+     }
+    
+
+
+}
+  

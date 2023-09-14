@@ -1,0 +1,82 @@
+//header  section
+@media screen and (min-width:200px) and (max-width:600px){
+    .overlay_text{
+        top: 35% !important;
+    }
+    .header-top-right{
+        display: block;
+        margin-left: 20px;
+        margin-top: -25px;
+       
+        .qusetion-text{
+            margin-top: 30p;
+            font-size: 0.8rem;
+            text-decoration: none !important;
+            color: #fff;
+        }
+    }
+    
+    
+}
+
+//MAIN NAVBAR SECTION
+@media screen and (min-width: 200px ) and (max-width: 1000px){
+    .navbar-nav{
+        display: flex;
+        margin-left: 7rem;
+    }
+   
+}
+@media screen and (min-width: 1000px ) and (max-width: 1200px){
+    .navbar-nav{
+        display: flex;
+        margin-left:13rem;
+    }
+   
+}
+//hero section
+@media screen and (min-width:350px) and (max-width:600px){
+    #overlay{
+        height: 22rem !important;
+    }
+    .overlay_text{
+        .overlay_heading{
+            color: #fff;
+            font-size: 25px;
+            margin-top: 5%;
+        }
+
+    }
+    //feture
+        
+         
+           
+     
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    #overlay{
+        height: 22rem !important;
+    }
+    .overlay_text{
+        .overlay_heading{
+            color: #fff;
+            font-size: 1.5rem;
+            margin-top: 5%;
+        }
+
+    }
+}
+@media screen and (min-width:800px) and (max-width:1000px){
+    #overlay{
+        height: 22rem !important;
+    }
+    .overlay_text{
+        .overlay_heading{
+            color: #fff;
+            font-size: 2rem;
+            margin-top: 5%;
+        }
+
+    }
+}
+

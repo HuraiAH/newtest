@@ -1,0 +1,56 @@
+
+  
+
+#overlay{
+  position: relative;
+  display: block;
+  margin-top: 6rem;
+  height: auto;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.overlay_text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: white;
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    h2{
+        font-size: 3em;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 0.8rem;
+        font-size: 16px;
+        color: #ccc;
+    }
+    button{
+        border: none;
+        background: none;
+        outline: none; 
+        background-color: var(--themes_color);
+        padding: 10px 16px;
+        transition: all 0.4s;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+        }
+        &:hover{
+            background-color: #fff;
+            a{
+                color: var(--themes_color);
+            }
+        }
+    }
+    
+  }
